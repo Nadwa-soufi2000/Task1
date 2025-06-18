@@ -1,0 +1,720 @@
+.container
+{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-direction: column;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height: 82.18px;
+    background-color: #191919;
+}
+
+.nav h2 
+{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #FFFFFF;
+}
+
+.nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 473.73px;
+    height:19.64px;
+    list-style:none;
+}
+.menu
+{
+    display:none;
+}
+.nav ul li
+{
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.section1
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 40px;
+    width:100%;
+}
+.section1 img
+{
+    width:251px;
+    height:223px;
+}
+.section1 h1
+{
+    font-weight:800;
+    font-size: 55px;
+    font-family: "Poppins", sans-serif;
+    text-align:center;
+    color:#C5C5C5;
+    width:670px;
+}
+.section1 h1 span 
+{
+    color: #9A33FF;
+}
+.section1 p
+{
+    font-weight:300;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    text-align:center;
+    color:#C5C5C5;
+    width:679px;
+}
+.button_group
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 19px;
+    width:417px;
+    padding-top: 30px;
+}
+.button_group .button1
+{
+   width:195px;
+   height: 64px;
+   background-color: #FFFF;
+   border-radius: 50px;
+   color:#161513;
+   font-size:21.38px;
+   font-weight:600;
+   font-family:"Poppins", sans-serif;
+}
+.button_group .button2
+{
+   width:195px;
+   height: 64px;
+   background-color: #161513;
+   border-radius: 50px;
+   border: 2px solid #FFFF;
+   color:#FFFFFF;
+   font-size:21.38px;
+   font-weight:600;
+   font-family:"Poppins", sans-serif;
+}
+
+.expirence
+{
+    width:670px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-direction: column;
+    margin-top:60px;
+    padding: 20px 0px;
+}
+.expirence p
+{
+    font-size:20px;
+    font-weight:600;
+    font-family:"Poppins", sans-serif;
+    color:#C5C5C5;
+}
+.expirence .expirence_child
+{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width:446.82px;
+}
+.expirence .expirence_child img
+{
+    width:42px;
+    height:42px;
+}
+
+.section2
+{
+    width:820px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-direction: column;
+    margin-top:60px;
+    padding: 20px 0px;  
+}
+.section2 h2
+{
+    font-size:35px;
+    font-weight:800;
+    font-family:"Poppins", sans-serif;
+    color: #D5491D ;
+}
+
+.section2 .section2_child
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+.section2 .section2_child img
+{
+    width:390px;
+    height:301px;
+}
+
+.section3
+{
+    width: 80%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:20px;
+}
+
+.section3 h2
+{
+    font-size:35px;
+    font-weight:800;
+    font-family:"Poppins", sans-serif;
+    color: #1373D1 ;
+}
+.section3 .section3_child
+{
+    width:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+}
+.section3 .section3_child .p1 ,
+.section3 .section3_child .p2 ,
+.section3 .section3_child .p3
+{
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    flex-direction:column;
+    width:100%;
+}
+
+.section3 .section3_child .p1 .p1_child ,
+.section3 .section3_child .p2 .p2_child ,
+.section3 .section3_child .p3 .p3_child
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+
+.section3 .section3_child .p1 .p1_child p,
+.section3 .section3_child .p2 .p2_child p ,
+.section3 .section3_child .p3 .p3_child p
+{
+    font-size:14.49px;
+    font-weight:400;
+    font-family:"Poppins", sans-serif;
+    color: #8491A0 ;
+}
+
+.section3 .section3_child .p1 .p1_child .p1-child2,
+.section3 .section3_child .p2 .p2_child .p2-child2,
+.section3 .section3_child .p3 .p3_child .p3-child2
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:7px;
+}
+
+.section3 .section3_child .p1 p,
+.section3 .section3_child .p2 p ,
+.section3 .section3_child .p3 p
+{
+    font-size:14.49px;
+    font-weight:400;
+    font-family:"Poppins", sans-serif;
+    color: #8491A0 ;
+}
+
+.section3 .section3_child .p1 .p1_child .p1-child2 p,
+.section3 .section3_child .p2 .p2_child .p2-child2 p,
+.section3 .section3_child .p3 .p3_child .p3-child2 p
+{
+    font-size:21.74px;
+    font-weight:700;
+    font-family:"Poppins", sans-serif;
+    color: #FFFFFF ;
+}
+
+.section3 .section3_child .p1 .p1_child .p1-child2 img,
+.section3 .section3_child .p2 .p2_child .p2-child2 img,
+.section3 .section3_child .p3 .p3_child .p3-child2 img
+{
+    width:27.1px;
+    height:30.86px;
+}
+
+.footer
+{
+    background-color: #191919;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    padding:30px 0px;
+}
+.footer .container-footer
+{
+    display:flex;
+    justify-content:center;
+    align-items: start;
+    flex-direction: column;
+    width: 600px;
+}
+.footer .container-footer h2
+{
+    font-size:23.53px;
+    font-weight:700;
+    font-family:"Poppins", sans-serif;
+    color: #FFFFFF ;
+}
+
+.footer .container-footer .text
+{
+    font-size:14.12px;
+    font-weight:300;
+    font-family:"Poppins", sans-serif;
+    color: #8491A0 ;
+}
+
+.footer .container-footer .foo-child1
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:4px;
+}
+.footer .container-footer .foo-child1 img
+{
+   width:16.51px;
+   height:16.51px;
+}
+.footer .container-footer .foo-child1 p
+{
+    font-size:14.12px;
+    font-weight:600;
+    font-family:"Poppins", sans-serif;
+    color: #8491A0 ;
+
+}
+
+.footer .container-footer .foo-child2
+{
+   width:152px;
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+}
+
+.footer .container-footer .foo-child2 img
+{
+    width:16px;
+    height:16px;
+}
+
+/*Responsive*/
+
+
+@media(max-width:768px)
+{
+ .menu
+  {
+    display:flex;
+  }
+  .nav ul li
+  {
+    font-size: 15px;
+  }
+  .nav ul 
+  {
+    display: none;
+  }
+  .nav h2 
+  {
+    font-size: 25px;
+  }
+     
+.section1 img
+{
+    width:160px;
+    height:140px;
+}
+.section1 h1
+{
+    font-size: 18px;
+    width:90%;
+}
+.section1 p
+{
+    font-size: 14px;
+    width:90%;
+}
+.button_group
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap: 19px;
+    width:417px;
+    padding-top: 30px;
+}
+.button_group .button1,
+.button_group .button2
+{
+   width:130px;
+   height: 37px;
+   font-size:13.38px;
+}
+.expirence
+{
+    width:100%;
+    margin-top:60px;
+    padding: 20px 0px;
+}
+.expirence p
+{
+    font-size:16px;
+}
+.expirence .expirence_child
+{
+    width:100%;
+    justify-content:center;
+    gap:20px;
+}
+.expirence .expirence_child img
+{
+    width:17px;
+    height:17px;
+}
+   
+}
+@media(min-width:768px)
+{
+.menu
+  {
+    display:flex;
+  }
+  .nav ul li
+  {
+    font-size: 15px;
+  }
+  .nav ul 
+  {
+    display: none;
+  }
+   .nav h2 
+  {
+    font-size: 30px;
+  }
+
+.section1 img
+{
+    width:200px;
+    height:190px;
+}
+.section1 h1
+{
+    font-size: 20px;
+    width:90%;
+}
+.section1 p
+{
+    font-size: 14px;
+    width:90%;
+}
+.button_group
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    gap: 19px;
+    width:417px;
+    padding-top: 30px;
+}
+.button_group .button1,
+.button_group .button2
+{
+   width:160px;
+   height: 44px;
+   font-size:16.38px;
+}
+.expirence
+{
+    width:100%;
+    margin-top:60px;
+    padding: 20px 0px;
+}
+.expirence p
+{
+    font-size:17px;
+}
+.expirence .expirence_child
+{
+    width:90%;
+    justify-content:center;
+    gap:20px;
+}
+.expirence .expirence_child img
+{
+    width:28px;
+    height:28px;
+}
+   
+}
+@media(min-width:992px)
+{
+ .menu
+  {
+    display:none;
+  }
+  .nav ul li
+  {
+    font-size: 13px;
+  }
+  .nav ul 
+  {
+    display: flex;
+  }
+  .nav h2 
+  {
+    font-size: 36px;
+  }
+  
+.section1 img
+{
+    width:231px;
+    height:203px;
+}
+.section1 h1
+{
+    font-size: 40px;
+    width:670px;
+}
+.section1 p
+{
+    font-size: 16px;
+    width:679px;
+}
+.button_group
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    gap: 19px;
+    width:417px;
+    padding-top: 30px;
+}
+.button_group .button1 , 
+.button_group .button2
+{
+   width:180px;
+   height: 54px;
+   font-size:18.38px;
+}
+.expirence
+{
+    width:670px;
+    margin-top:60px;
+    padding: 20px 0px;
+}
+.expirence p
+{
+    font-size:20px;
+}
+.expirence .expirence_child
+{
+    width:446.82px;
+    justify-content:space-between;
+}
+.expirence .expirence_child img
+{
+    width:40px;
+    height:40px;
+}
+   
+}
+@media(min-width:1200px)
+{
+ .menu
+   {
+     display:none;
+   }
+  .nav ul li
+  {
+    font-size: 15px;
+  }
+  .nav ul 
+  {
+    display: flex;
+  }
+  .nav h2 
+  {
+    font-size: 36px;
+  }
+.section1 img
+{
+    width:251px;
+    height:223px;
+}
+.section1 h1
+{
+    font-size: 55px;
+    width:670px;
+}
+.section1 p
+{
+    font-size: 18px;
+    width:679px;
+}
+.button_group
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    gap: 19px;
+    width:417px;
+    padding-top: 30px;
+}
+.button_group .button1 ,
+.button_group .button2
+{
+   width:195px;
+   height: 64px;
+   font-size:21.38px;
+}
+.expirence
+{
+    width:670px;
+    margin-top:60px;
+    padding: 20px 0px;
+}
+.expirence p
+{
+    font-size:20px;
+}
+.expirence .expirence_child
+{
+    width:446.82px;
+    justify-content:space-between;
+}
+.expirence .expirence_child img
+{
+    width:42px;
+    height:42px;
+}
+   
+}
+@media(min-width:1400px)
+{
+     
+ .menu
+  {
+    display:none;
+  }
+  .nav ul li
+  {
+    font-size: 15px;
+  }
+  .nav ul 
+  {
+    display: flex;
+  }
+.nav h2 
+  {
+    font-size: 36px;
+  }
+
+.section1 img
+{
+    width:251px;
+    height:223px;
+}
+.section1 h1
+{
+    font-size: 55px;
+    width:670px;
+}
+.section1 p
+{
+    font-size: 18px;
+    width:679px;
+}
+.button_group
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    gap: 19px;
+    width:417px;
+    padding-top: 30px;
+}
+.button_group .button1 ,
+.button_group .button2
+{
+   width:195px;
+   height: 64px;
+   font-size:21.38px;
+}
+   
+.expirence
+{
+    width:670px;
+    margin-top:60px;
+    padding: 20px 0px;
+}
+.expirence p
+{
+    font-size:20px;
+}
+.expirence .expirence_child
+{
+    width:446.82px;
+    justify-content:space-between;
+}
+.expirence .expirence_child img
+{
+    width:42px;
+    height:42px;
+}
+   
+}
+
+
+
+
+
+/*background: linear-gradient( #FF8660 30% , #D5491D 70%);/*
